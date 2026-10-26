@@ -14,7 +14,7 @@
 
 ## 游戏画面速览
 
-点击项目名称进入完整说明；点击截图查看原图。当前已整理四款游戏的 12 张截图，Dream Repair 的截图待补充。
+点击项目名称进入完整说明；点击截图查看原图。
 
 | Enchanted Wetlands | Sushi Sprint Sorter | Luck Cauldron |
 | --- | --- | --- |
