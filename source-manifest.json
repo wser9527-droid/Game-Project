@@ -1,0 +1,318 @@
+{
+  "formatVersion": 1,
+  "preparedOn": "2026-10-21",
+  "selectionPlanSha256": "49fbb0aec07debeeafcf64b3f34209acf1c57f1a44cbc0b86c1c719e4a390919",
+  "samples": [
+    {
+      "project": "Dream-Repair",
+      "source": "Assets/DreamRepair/Scripts/DreamRepairGame.cs",
+      "output": "projects/Dream-Repair/code/GestureInput.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [
+        [
+          5039,
+          5126
+        ]
+      ],
+      "sourceSha256": "a171cc3be1ca9bb2ef2f66e696871062b11e478a08cb433d2a0d6230d50730d9",
+      "outputSha256": "b681590cc6b1db54f375be50bbdb75ffc13eb59b4a05f7587da15879730c1006",
+      "bytes": 3634,
+      "lines": 93
+    },
+    {
+      "project": "Dream-Repair",
+      "source": "Assets/DreamRepair/Scripts/DreamRepairGame.cs",
+      "output": "projects/Dream-Repair/code/StrokeCollision.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [
+        [
+          5216,
+          5226
+        ],
+        [
+          5352,
+          5402
+        ],
+        [
+          5431,
+          5460
+        ]
+      ],
+      "sourceSha256": "a171cc3be1ca9bb2ef2f66e696871062b11e478a08cb433d2a0d6230d50730d9",
+      "outputSha256": "4604676aa42fe1f8072275b9106ca2128fa49a74b7a9b322312b7031a3cb6067",
+      "bytes": 3882,
+      "lines": 101
+    },
+    {
+      "project": "Dream-Repair",
+      "source": "Assets/DreamRepair/Scripts/DreamRepairGame.cs",
+      "output": "projects/Dream-Repair/code/SafeArea.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [
+        [
+          3337,
+          3366
+        ]
+      ],
+      "sourceSha256": "a171cc3be1ca9bb2ef2f66e696871062b11e478a08cb433d2a0d6230d50730d9",
+      "outputSha256": "81a33a50f66d256d8f7b54f9087ae9934707955deba23adbddc5b48dd1cd7e20",
+      "bytes": 1504,
+      "lines": 35
+    },
+    {
+      "project": "Dream-Repair",
+      "source": "Assets/DreamRepair/Tests/DreamRepairPlayModeTests.cs",
+      "output": "projects/Dream-Repair/tests/SmokeFlow.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [
+        [
+          10,
+          53
+        ]
+      ],
+      "sourceSha256": "10fb56826fb5ced71f41bf288729fedec34fde3187895df0781ee2916d3cfa10",
+      "outputSha256": "3affe3ba094ffa3754f791053544b4cd66e43a9aaf048cecfee2bd8f69c13e9b",
+      "bytes": 2470,
+      "lines": 49
+    },
+    {
+      "project": "Starhook-Recovery",
+      "source": "Assets/Scripts/StarhookRecovery/StarhookRecoveryData.cs",
+      "output": "projects/Starhook-Recovery/code/StarhookRecoveryData.cs",
+      "kind": "original-file",
+      "ranges": null,
+      "sourceSha256": "7e0becc541640a22b065faee1c8a64ddb754fcaa51fd4f7bddda9122c5b5adf3",
+      "outputSha256": "7e0becc541640a22b065faee1c8a64ddb754fcaa51fd4f7bddda9122c5b5adf3",
+      "bytes": 3777,
+      "lines": 155
+    },
+    {
+      "project": "Starhook-Recovery",
+      "source": "Assets/Scripts/StarhookRecovery/GridState.cs",
+      "output": "projects/Starhook-Recovery/code/GridState.cs",
+      "kind": "original-file",
+      "ranges": null,
+      "sourceSha256": "c8617fe876862743cc47dffdee2c52d3a46a94a638525809988929792004568f",
+      "outputSha256": "c8617fe876862743cc47dffdee2c52d3a46a94a638525809988929792004568f",
+      "bytes": 3273,
+      "lines": 123
+    },
+    {
+      "project": "Starhook-Recovery",
+      "source": "Assets/Scripts/StarhookRecovery/EndlessLevelGenerator.cs",
+      "output": "projects/Starhook-Recovery/code/EndlessLevelGenerator.cs",
+      "kind": "original-file",
+      "ranges": null,
+      "sourceSha256": "4025468895bb48bc1da26c1b153e7da9082f5dc22ac59d139a08ad55653eec6e",
+      "outputSha256": "4025468895bb48bc1da26c1b153e7da9082f5dc22ac59d139a08ad55653eec6e",
+      "bytes": 29618,
+      "lines": 786
+    },
+    {
+      "project": "Sushi-Sprint-Sorter",
+      "source": "Assets/SorterGame/Scripts/SorterProgressStore.cs",
+      "output": "projects/Sushi-Sprint-Sorter/code/SorterProgressStore.cs",
+      "kind": "original-file",
+      "ranges": null,
+      "sourceSha256": "1246bdd7edf16f1b410860b16836391b27dd6fa38e3ea640931cdc1dd2397977",
+      "outputSha256": "1246bdd7edf16f1b410860b16836391b27dd6fa38e3ea640931cdc1dd2397977",
+      "bytes": 9339,
+      "lines": 221
+    },
+    {
+      "project": "Sushi-Sprint-Sorter",
+      "source": "Assets/SorterGame/Scripts/SorterLetter.cs",
+      "output": "projects/Sushi-Sprint-Sorter/code/SorterLetter.cs",
+      "kind": "original-file",
+      "ranges": null,
+      "sourceSha256": "8c8f98383eeb50afe379f407e94903b753b5a837abb640a8adc5568e38b6a4fe",
+      "outputSha256": "8c8f98383eeb50afe379f407e94903b753b5a837abb640a8adc5568e38b6a4fe",
+      "bytes": 4070,
+      "lines": 140
+    },
+    {
+      "project": "Sushi-Sprint-Sorter",
+      "source": "Assets/SorterGame/Scripts/SorterGameManager.cs",
+      "output": "projects/Sushi-Sprint-Sorter/code/DragInput.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [
+        [
+          631,
+          749
+        ]
+      ],
+      "sourceSha256": "02a8437c06c00046446ee33634a54de929e7f52112f6515c1b91147e4cefeadc",
+      "outputSha256": "1f7444df4d3a838b1a4b05d6fad81176a25abd182f85bd90bb3997125f2e87f4",
+      "bytes": 4356,
+      "lines": 124
+    },
+    {
+      "project": "Sushi-Sprint-Sorter",
+      "source": "Assets/SorterGame/Tests/PlayMode/SorterGameplayPlayModeTests.cs",
+      "output": "projects/Sushi-Sprint-Sorter/tests/InteractionAndSave.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [
+        [
+          457,
+          507
+        ],
+        [
+          1039,
+          1062
+        ],
+        [
+          1303,
+          1345
+        ],
+        [
+          1441,
+          1481
+        ]
+      ],
+      "sourceSha256": "bda114c0b8db7abaf40af838991dd57979af1581fe3c055fbc6320aaf6a4b900",
+      "outputSha256": "41be841ea1da2d5d04cf6ba16354dfdc11bd2cd8f90eb11d66db76974add0c2f",
+      "bytes": 7574,
+      "lines": 170
+    },
+    {
+      "project": "Luck-Cauldron",
+      "source": "Assets/Scripts/Slot/SlotMachineController.cs",
+      "output": "projects/Luck-Cauldron/code/AlchemyRules.cs",
+      "kind": "class-extraction",
+      "ranges": [
+        [
+          11,
+          42
+        ],
+        [
+          66,
+          72
+        ],
+        [
+          81,
+          125
+        ],
+        [
+          294,
+          317
+        ]
+      ],
+      "sourceSha256": "6a2c81041aefcf59309695077a30656e221c8d6dc1eda4f0758babdff6edf315",
+      "outputSha256": "f75afe1e1aa7d67c8b1acc5300f50e624d445e2813c9e5e05f6aab7f7660ce81",
+      "bytes": 4653,
+      "lines": 126
+    },
+    {
+      "project": "Luck-Cauldron",
+      "source": "Assets/Scripts/Slot/SlotMachineController.cs",
+      "output": "projects/Luck-Cauldron/code/ProgressionServices.cs",
+      "kind": "class-extraction",
+      "ranges": [
+        [
+          127,
+          292
+        ],
+        [
+          360,
+          425
+        ]
+      ],
+      "sourceSha256": "6a2c81041aefcf59309695077a30656e221c8d6dc1eda4f0758babdff6edf315",
+      "outputSha256": "4b3b000c29e06bef8740ea7b20fec2d902d795f21e2b9a1faa8007cb5d938c96",
+      "bytes": 8272,
+      "lines": 245
+    },
+    {
+      "project": "Luck-Cauldron",
+      "source": "Assets/Scripts/Slot/JuicyEffectSystem.cs",
+      "output": "projects/Luck-Cauldron/code/JuicyEffectSystem.cs",
+      "kind": "original-file",
+      "ranges": null,
+      "sourceSha256": "32059cf1785dce0de6e8d5ac29872036273a3bba1dfcc4c5abe3175edccb450c",
+      "outputSha256": "32059cf1785dce0de6e8d5ac29872036273a3bba1dfcc4c5abe3175edccb450c",
+      "bytes": 2506,
+      "lines": 79
+    },
+    {
+      "project": "Enchanted-Wetlands",
+      "source": "Assets/Scripts/LevelData.cs",
+      "output": "projects/Enchanted-Wetlands/code/LevelData.cs",
+      "kind": "original-file",
+      "ranges": null,
+      "sourceSha256": "c66259160a7504e515d2b433abf77281ba08c03267863eeed421bc93f79d72f8",
+      "outputSha256": "c66259160a7504e515d2b433abf77281ba08c03267863eeed421bc93f79d72f8",
+      "bytes": 1976,
+      "lines": 74
+    },
+    {
+      "project": "Enchanted-Wetlands",
+      "source": "Assets/Scripts/LightPuzzleModel.cs",
+      "output": "projects/Enchanted-Wetlands/code/LightPuzzleModel.cs",
+      "kind": "original-file",
+      "ranges": null,
+      "sourceSha256": "50796f232126f635a210bc1a79429b543f631a8d8a507280fbf4cdf9dd4fc351",
+      "outputSha256": "50796f232126f635a210bc1a79429b543f631a8d8a507280fbf4cdf9dd4fc351",
+      "bytes": 14280,
+      "lines": 414
+    },
+    {
+      "project": "Enchanted-Wetlands",
+      "source": "Assets/Scripts/BeamRenderer.cs",
+      "output": "projects/Enchanted-Wetlands/code/BeamRenderer.cs",
+      "kind": "original-file",
+      "ranges": null,
+      "sourceSha256": "7a1d1987a0ae80232b62444a8abb442c33de18a73635e6e31d529cdfffe89144",
+      "outputSha256": "7a1d1987a0ae80232b62444a8abb442c33de18a73635e6e31d529cdfffe89144",
+      "bytes": 9067,
+      "lines": 229
+    },
+    {
+      "project": "Enchanted-Wetlands",
+      "source": "Assets/Scripts/LightPuzzleController.cs",
+      "output": "projects/Enchanted-Wetlands/code/PreviewFlow.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [
+        [
+          34,
+          40
+        ],
+        [
+          203,
+          227
+        ],
+        [
+          700,
+          752
+        ]
+      ],
+      "sourceSha256": "3256040b4b57018639979ce10e781a61edb0508f6c09e8d0ddbc136943301e02",
+      "outputSha256": "a414e5fbf870c48560c57a5a80474172512c17b6ecfbb5618c2ae9eb725f5d32",
+      "bytes": 3607,
+      "lines": 94
+    },
+    {
+      "project": "Enchanted-Wetlands",
+      "source": "Assets/Tests/EditMode/LumenGlassEditModeTests.cs",
+      "output": "projects/Enchanted-Wetlands/tests/LightRules.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [
+        [
+          95,
+          163
+        ],
+        [
+          448,
+          459
+        ],
+        [
+          590,
+          602
+        ]
+      ],
+      "sourceSha256": "3f1daa677984263ea2cf3ed09426af367ee792744982febe4737a0a444382587",
+      "outputSha256": "5c86132235152fd82daf44b4ba7edc0802281222798ad44a38dec3e490c87fca",
+      "bytes": 5223,
+      "lines": 103
+    }
+  ]
+}

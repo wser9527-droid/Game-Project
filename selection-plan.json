@@ -1,0 +1,151 @@
+{
+  "formatVersion": 1,
+  "preparedOn": "2026-10-21",
+  "projects": [
+    { "slug": "Dream-Repair", "title": "Dream Repair", "sourceDirectory": "brr/com.DreamRepair.RepairGame" },
+    { "slug": "Starhook-Recovery", "title": "Starhook Recovery", "sourceDirectory": "brr/com.starhook.recovery" },
+    { "slug": "Sushi-Sprint-Sorter", "title": "Sushi Sprint Sorter", "sourceDirectory": "brr/com.sushi.sprintsorter" },
+    { "slug": "Luck-Cauldron", "title": "Luck Cauldron", "sourceDirectory": "brr/com.luckcauldron.luck" },
+    { "slug": "Enchanted-Wetlands", "title": "Enchanted Wetlands", "sourceDirectory": "game/EnchantedWetlands" }
+  ],
+  "samples": [
+    {
+      "project": "Dream-Repair",
+      "source": "Assets/DreamRepair/Scripts/DreamRepairGame.cs",
+      "output": "projects/Dream-Repair/code/GestureInput.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [[5039, 5126]],
+      "dependencies": "Members of DreamRepairGame, UnityEngine, skill definitions and visual/audio feedback."
+    },
+    {
+      "project": "Dream-Repair",
+      "source": "Assets/DreamRepair/Scripts/DreamRepairGame.cs",
+      "output": "projects/Dream-Repair/code/StrokeCollision.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [[5216, 5226], [5352, 5402], [5431, 5460]],
+      "dependencies": "DreamRepairGame fields, EnemyRuntime, SkillDef, SkillDamage, DamageEnemy, HitSpark, System.Linq and UnityEngine."
+    },
+    {
+      "project": "Dream-Repair",
+      "source": "Assets/DreamRepair/Scripts/DreamRepairGame.cs",
+      "output": "projects/Dream-Repair/code/SafeArea.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [[3337, 3366]],
+      "dependencies": "DreamRepairGame.safeAreaRoot, lastSafeArea, UpdateSlotMachineResponsiveLayout and UnityEngine UI."
+    },
+    {
+      "project": "Dream-Repair",
+      "source": "Assets/DreamRepair/Tests/DreamRepairPlayModeTests.cs",
+      "output": "projects/Dream-Repair/tests/SmokeFlow.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [[10, 53]],
+      "dependencies": "Original DreamRepairPlayModeTests fixture, DreamRepairGame, NUnit and Unity Test Framework."
+    },
+    {
+      "project": "Starhook-Recovery",
+      "source": "Assets/Scripts/StarhookRecovery/StarhookRecoveryData.cs",
+      "output": "projects/Starhook-Recovery/code/StarhookRecoveryData.cs",
+      "kind": "original-file"
+    },
+    {
+      "project": "Starhook-Recovery",
+      "source": "Assets/Scripts/StarhookRecovery/GridState.cs",
+      "output": "projects/Starhook-Recovery/code/GridState.cs",
+      "kind": "original-file"
+    },
+    {
+      "project": "Starhook-Recovery",
+      "source": "Assets/Scripts/StarhookRecovery/EndlessLevelGenerator.cs",
+      "output": "projects/Starhook-Recovery/code/EndlessLevelGenerator.cs",
+      "kind": "original-file"
+    },
+    {
+      "project": "Sushi-Sprint-Sorter",
+      "source": "Assets/SorterGame/Scripts/SorterProgressStore.cs",
+      "output": "projects/Sushi-Sprint-Sorter/code/SorterProgressStore.cs",
+      "kind": "original-file"
+    },
+    {
+      "project": "Sushi-Sprint-Sorter",
+      "source": "Assets/SorterGame/Scripts/SorterLetter.cs",
+      "output": "projects/Sushi-Sprint-Sorter/code/SorterLetter.cs",
+      "kind": "original-file"
+    },
+    {
+      "project": "Sushi-Sprint-Sorter",
+      "source": "Assets/SorterGame/Scripts/SorterGameManager.cs",
+      "output": "projects/Sushi-Sprint-Sorter/code/DragInput.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [[631, 749]],
+      "dependencies": "Original SorterGameManager fields and helpers, SorterLetter, camera, physics and UI callbacks."
+    },
+    {
+      "project": "Sushi-Sprint-Sorter",
+      "source": "Assets/SorterGame/Tests/PlayMode/SorterGameplayPlayModeTests.cs",
+      "output": "projects/Sushi-Sprint-Sorter/tests/InteractionAndSave.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [[457, 507], [1039, 1062], [1303, 1345], [1441, 1481]],
+      "dependencies": "Original test fixture and Main scene, SorterGameManager, SorterProgressStore, NUnit and Unity Test Framework."
+    },
+    {
+      "project": "Luck-Cauldron",
+      "source": "Assets/Scripts/Slot/SlotMachineController.cs",
+      "output": "projects/Luck-Cauldron/code/AlchemyRules.cs",
+      "kind": "class-extraction",
+      "ranges": [[11, 42], [66, 72], [81, 125], [294, 317]],
+      "wrapperPrefix": "using System.Collections.Generic;\nusing System.Linq;\nusing UnityEngine;\n\nnamespace LuckyCauldron\n{\n",
+      "wrapperSuffix": "}\n",
+      "dependencies": "UnityEngine and System.Linq; extracted enums and RecipeResult are included."
+    },
+    {
+      "project": "Luck-Cauldron",
+      "source": "Assets/Scripts/Slot/SlotMachineController.cs",
+      "output": "projects/Luck-Cauldron/code/ProgressionServices.cs",
+      "kind": "class-extraction",
+      "ranges": [[127, 292], [360, 425]],
+      "wrapperPrefix": "using System;\nusing UnityEngine;\n\nnamespace LuckyCauldron\n{\n",
+      "wrapperSuffix": "}\n",
+      "dependencies": "AlchemyRules.cs, UnityEngine PlayerPrefs and JsonUtility."
+    },
+    {
+      "project": "Luck-Cauldron",
+      "source": "Assets/Scripts/Slot/JuicyEffectSystem.cs",
+      "output": "projects/Luck-Cauldron/code/JuicyEffectSystem.cs",
+      "kind": "original-file"
+    },
+    {
+      "project": "Enchanted-Wetlands",
+      "source": "Assets/Scripts/LevelData.cs",
+      "output": "projects/Enchanted-Wetlands/code/LevelData.cs",
+      "kind": "original-file"
+    },
+    {
+      "project": "Enchanted-Wetlands",
+      "source": "Assets/Scripts/LightPuzzleModel.cs",
+      "output": "projects/Enchanted-Wetlands/code/LightPuzzleModel.cs",
+      "kind": "original-file"
+    },
+    {
+      "project": "Enchanted-Wetlands",
+      "source": "Assets/Scripts/BeamRenderer.cs",
+      "output": "projects/Enchanted-Wetlands/code/BeamRenderer.cs",
+      "kind": "original-file"
+    },
+    {
+      "project": "Enchanted-Wetlands",
+      "source": "Assets/Scripts/LightPuzzleController.cs",
+      "output": "projects/Enchanted-Wetlands/code/PreviewFlow.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [[34, 40], [203, 227], [700, 752]],
+      "dependencies": "Original LightPuzzleController fields and UI helpers, LightPuzzleModel, BeamRenderer, SaveManager and PuzzleTool."
+    },
+    {
+      "project": "Enchanted-Wetlands",
+      "source": "Assets/Tests/EditMode/LumenGlassEditModeTests.cs",
+      "output": "projects/Enchanted-Wetlands/tests/LightRules.excerpt.cs",
+      "kind": "context-excerpt",
+      "ranges": [[95, 163], [448, 459], [590, 602]],
+      "dependencies": "Original EnchantedWetlandsEditModeTests fixture, UnityEngine, NUnit, BeamRenderer, LightPuzzleModel, LevelDatabase and Resources/Data/levels.json."
+    }
+  ]
+}
