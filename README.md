@@ -58,9 +58,3 @@ node tools/curate.mjs verify /path/to/source-parent
 ```
 
 来源目录约定为父目录下的 `brr/com.*` 和 `game/EnchantedWetlands`，具体名称见提取清单。以上校验不包含 Unity 编译、运行、性能或真机验证。
-
-## 求职阅读入口
-
-[面试讲解提纲](docs/INTERVIEW_GUIDE.md) 给出每个模块的实现流程、可以追问的问题及当前代码的实际边界。[上传说明](docs/GITHUB_UPLOAD.md) 说明如何将本目录作为 GitHub 仓库发布。
-
-[作品集截图清单](docs/SCREENSHOT_CHECKLIST.md) 保留拍摄要求并记录当前完成情况；[截图索引](docs/SCREENSHOT_INDEX.md) 列出本次整理的 12 张画面、来源文件名及待补材料。
