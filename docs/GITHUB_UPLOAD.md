@@ -9,6 +9,18 @@
 3. 首页检查五个游戏入口、源码链接和中文显示。
 4. 在个人 GitHub 主页将该仓库置顶。
 
+## 更新已有 GitHub 仓库
+
+本次截图更新已准备为增量包 `Game-GitHub-Update.zip`。解压后，里面直接包含 `README.md`、`projects/` 和 `docs/`。
+
+1. 打开现有仓库首页 `https://github.com/wser9527-droid/Game-Project`，选择 `Add file → Upload files`。
+2. 打开解压后的更新文件夹，选中里面的 `README.md`、`projects`、`docs` 三项，一起拖入网页。不要把 ZIP 本身或外层文件夹拖入。
+3. 保留目录大小写与结构。相同路径的 README 会更新，新图片会添加；原仓库里未列入本次上传的代码文件会保留。
+4. 提交说明填写 `Add game screenshots and portfolio galleries`，点击 `Commit changes`（若页面先出现确认弹窗，继续在弹窗中提交）。
+5. 返回首页确认速览图片，再进入四个有图片的项目，检查图片及源码链接。
+
+本次整理不包括 Dream Repair 截图；其他待补材料见截图清单。上述步骤更新已有仓库，无需新建仓库或启用 GitHub Pages。
+
 ## 本地 Git 上传
 
 也可以在本目录初始化 Git，通过 GitHub Desktop 或命令行提交、推送到自己的仓库。初次推送前检查实际暂存文件；这份交付没有初始化 Git、创建远端或进行推送。

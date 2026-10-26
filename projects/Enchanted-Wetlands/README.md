@@ -6,6 +6,34 @@
 
 可直接用于投递的[简历项目描述](RESUME.md)与[面试讲解](../../docs/INTERVIEW_GUIDE.md)已按这些信息整理。
 
+
+<!-- SCREENSHOT-GALLERY-START -->
+## 游戏画面
+
+以下为开发者提供的游戏画面，保留原始像素尺寸，仅作 PNG 无损压缩。点击图片可查看大图。
+
+### 紫色目标棋盘（Level 4）
+
+<a href="images/01-core-board.png"><img src="images/01-core-board.png" width="280" alt="紫色目标棋盘（Level 4）"></a>
+
+画面显示红、蓝混色目标与三星彩色结果；保留完整水道、光源和操作区。
+
+### 绿色目标棋盘（Level 5）
+
+<a href="images/02-green-target-board.png"><img src="images/02-green-target-board.png" width="280" alt="绿色目标棋盘（Level 5）"></a>
+
+展示蓝、黄目标及连接路径，作为另一关卡的布局示例。
+
+### 橙色目标棋盘（Level 6）
+
+<a href="images/03-orange-target-board.png"><img src="images/03-orange-target-board.png" width="280" alt="橙色目标棋盘（Level 6）"></a>
+
+展示红、黄目标、应避开的蓝色及不同水道布局；不据此认定通关或预览状态。
+
+这三张分别来自 Level 4、5、6，不组成同一关卡的错误／正确对照，也不作为滤色或答案预览机制的专门演示。
+
+<!-- SCREENSHOT-GALLERY-END -->
+
 ## 个人贡献
 
 - 独立负责玩法设计与 Unity/C# 实现，将水道旋转、多源混色、滤色和干扰色排除组合成关卡目标，完成 UI、素材整合与功能调试。

@@ -4,6 +4,26 @@
 
 **项目角色：独立开发，负责全部开发工作。项目状态：已过审（开发者提供）。**
 
+
+<!-- SCREENSHOT-GALLERY-START -->
+## 游戏画面
+
+以下为开发者提供的游戏画面，保留原始像素尺寸，仅作 PNG 无损压缩。点击图片可查看大图。
+
+### 钩索与回收棋盘
+
+<a href="images/01-core-board.png"><img src="images/01-core-board.png" width="680" alt="钩索与回收棋盘"></a>
+
+横屏展示钩索、货物、网格和方向操作区。
+
+### 轨道扫描界面
+
+<a href="images/02-orbit-scan.png"><img src="images/02-orbit-scan.png" width="680" alt="轨道扫描界面"></a>
+
+展示 Orbit Scan 界面及关卡开始前的规则信息。
+
+<!-- SCREENSHOT-GALLERY-END -->
+
 ## 个人贡献
 
 - 负责玩法设计、Unity/C# 实现、关卡规则配置、UI 与反馈表现、素材整合和调试交付，围绕钩索与货物移动组织解谜流程。

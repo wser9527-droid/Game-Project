@@ -4,6 +4,38 @@
 
 **项目角色：独立开发，负责全部开发工作。项目状态：已过审（开发者提供）。**
 
+
+<!-- SCREENSHOT-GALLERY-START -->
+## 游戏画面
+
+以下为开发者提供的游戏画面，保留原始像素尺寸，仅作 PNG 无损压缩。点击图片可查看大图。
+
+### 三轨道分拣
+
+<a href="images/01-core-gameplay.png"><img src="images/01-core-gameplay.png" width="280" alt="三轨道分拣"></a>
+
+展示三条轨道、寿司对象、底部判定区域及局内 HUD。
+
+### 局内分拣补充画面
+
+<a href="images/02-gameplay-detail.png"><img src="images/02-gameplay-detail.png" width="280" alt="局内分拣补充画面"></a>
+
+展示另一时刻的寿司布局与局内计数；静态画面不作为正在拖拽的证明。
+
+### 角色商店与装备状态
+
+<a href="images/03-shop-or-result.png"><img src="images/03-shop-or-result.png" width="280" alt="角色商店与装备状态"></a>
+
+展示角色列表、已装备和未解锁状态，以及当前 Tips 数量。
+
+### 局内转轮反馈
+
+<a href="images/04-reward-wheel.png"><img src="images/04-reward-wheel.png" width="280" alt="局内转轮反馈"></a>
+
+展示局内转轮、CHILL BELT 8S 文案及继续按钮。
+
+<!-- SCREENSHOT-GALLERY-END -->
+
 ## 个人贡献
 
 - 负责玩法设计、Unity/C# 开发、规则与数值配置、UI 表现、素材整合和调试交付，实现三轨道分拣、单对象拖拽和松手吸附。

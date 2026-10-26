@@ -2,7 +2,7 @@
 
 独立开发的五款 Unity/C# 休闲手游，负责玩法设计、程序实现、关卡与数值配置、UI 与反馈表现、素材整合及调试交付。开发过程中使用 Codex 辅助实现和迭代，独立承担项目设计、集成与交付责任。
 
-作品集包含项目介绍、个人贡献、技术案例与 19 份精选代码。建议先从特色玩法案例 Enchanted Wetlands 开始，再阅读其余项目；投递用的精简文案见[项目经历汇总](docs/PROJECT_EXPERIENCE.md)。
+作品集包含项目介绍、个人贡献、技术案例、12 张游戏截图与 19 份精选代码。建议先从特色玩法案例 Enchanted Wetlands 开始，再阅读其余项目；投递用的精简文案见[项目经历汇总](docs/PROJECT_EXPERIENCE.md)。
 
 | 游戏 | 项目状态 | 推荐先读 | 展示内容 |
 | --- | --- | --- | --- |
@@ -11,6 +11,20 @@
 | [Starhook Recovery](projects/Starhook-Recovery/README.md) | 已过审 | [网格状态](projects/Starhook-Recovery/code/GridState.cs) | 状态与显示分离、确定性生成、重试与后备关卡 |
 | [Sushi Sprint Sorter](projects/Sushi-Sprint-Sorter/README.md) | 已过审 | [交互与选中](projects/Sushi-Sprint-Sorter/code/DragInput.excerpt.cs) | 拖拽状态、触摸容错、轨道吸附、存档与测试 |
 | [Luck Cauldron](projects/Luck-Cauldron/README.md) | 已过审 | [规则计算](projects/Luck-Cauldron/code/AlchemyRules.cs) | 权重采样、配方优先级、升级服务、协程动画 |
+
+## 游戏画面速览
+
+点击项目名称进入完整说明；点击截图查看原图。当前已整理四款游戏的 12 张截图，Dream Repair 的截图待补充。
+
+| Enchanted Wetlands | Sushi Sprint Sorter | Luck Cauldron |
+| --- | --- | --- |
+| <a href="projects/Enchanted-Wetlands/README.md"><img src="projects/Enchanted-Wetlands/images/01-core-board.png" width="220" alt="Enchanted Wetlands 紫色目标棋盘"></a> | <a href="projects/Sushi-Sprint-Sorter/README.md"><img src="projects/Sushi-Sprint-Sorter/images/01-core-gameplay.png" width="220" alt="Sushi Sprint Sorter 三轨道分拣"></a> | <a href="projects/Luck-Cauldron/README.md"><img src="projects/Luck-Cauldron/images/01-core-gameplay.png" width="220" alt="Luck Cauldron 炼金主界面"></a> |
+
+### Starhook Recovery
+
+<a href="projects/Starhook-Recovery/README.md"><img src="projects/Starhook-Recovery/images/01-core-board.png" width="760" alt="Starhook Recovery 横屏回收棋盘"></a>
+
+[查看截图对应关系与待补内容](docs/SCREENSHOT_INDEX.md)。静态截图展示界面与当前画面，不代替交互、动画或性能验证。
 
 ## 阅读方式
 
@@ -49,4 +63,4 @@ node tools/curate.mjs verify /path/to/source-parent
 
 [面试讲解提纲](docs/INTERVIEW_GUIDE.md) 给出每个模块的实现流程、可以追问的问题及当前代码的实际边界。[上传说明](docs/GITHUB_UPLOAD.md) 说明如何将本目录作为 GitHub 仓库发布。
 
-[作品集截图清单](docs/SCREENSHOT_CHECKLIST.md) 列出五款游戏各 3 张必要截图，以及 Enchanted Wetlands 的 2 张补充机制图，包含拍摄内容、文件命名和存放方式。
+[作品集截图清单](docs/SCREENSHOT_CHECKLIST.md) 保留拍摄要求并记录当前完成情况；[截图索引](docs/SCREENSHOT_INDEX.md) 列出本次整理的 12 张画面、来源文件名及待补材料。

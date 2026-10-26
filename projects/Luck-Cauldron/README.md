@@ -4,6 +4,32 @@
 
 **项目角色：独立开发，负责全部开发工作。项目状态：已过审（开发者提供）。**
 
+
+<!-- SCREENSHOT-GALLERY-START -->
+## 游戏画面
+
+以下为开发者提供的游戏画面，保留原始像素尺寸，仅作 PNG 无损压缩。点击图片可查看大图。
+
+### 炼金主界面
+
+<a href="images/01-core-gameplay.png"><img src="images/01-core-gameplay.png" width="280" alt="炼金主界面"></a>
+
+展示材料棋盘、资源计数、操作按钮与主要交互区域。
+
+### 炼金产物反馈
+
+<a href="images/02-recipe-result.png"><img src="images/02-recipe-result.png" width="280" alt="炼金产物反馈"></a>
+
+展示产物图像及 Philosopher Coin +385g 结果文案。
+
+### 升级与成长界面
+
+<a href="images/03-upgrade-or-progress.png"><img src="images/03-upgrade-or-progress.png" width="280" alt="升级与成长界面"></a>
+
+展示升级项、等级、MAX 状态及加成说明。
+
+<!-- SCREENSHOT-GALLERY-END -->
+
 ## 个人贡献
 
 - 负责玩法设计、Unity/C# 实现、数值与配方配置、UI 表现、素材整合和调试交付，完成材料生成、组合判定、产物反馈和升级成长流程。
@@ -39,7 +65,7 @@
 
 `AlchemyRules.cs` 和 `ProgressionServices.cs` 是本次为了阅读从较长文件中分离的类，不能据此声称原工程已经按这些文件拆分。两份文件保留原命名空间；不要与原 `SlotMachineController.cs` 同时导入同一程序集，以免类型重复。
 
-这两份抽取代码互相补齐直接类型依赖，但本次未运行编译。`JuicyEffectSystem` 需要挂载在启用的 MonoBehaviour 上，并由调用方传入有效 UI 对象；本目录没有提供场景或动画演示。
+这两份抽取代码互相补齐直接类型依赖，但本次未运行编译。`JuicyEffectSystem` 需要挂载在启用的 MonoBehaviour 上，并由调用方传入有效 UI 对象；本目录没有提供场景或动画录屏；上方截图仅展示静态游戏画面。
 
 ## 当前实现的边界
 
